@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import Header from '../components/Header.vue'
 import Hero from '../components/Hero.vue'
+import AboutUs from '../components/AboutUs.vue'
+
 import Einsatzgebiete from '../components/Einsatzgebiete.vue'
 import Card from '../components/Card.vue'
 
@@ -13,7 +15,8 @@ import { Phone, PhoneCall } from 'lucide-vue-next'
 <template>
   <div>
     <Header class="fixed inset-x-0 top-0 z-10 bg-white" />
-    <Hero class="mt-24" />
+    <Hero class="my-20 lg:my-24" />
+    <AboutUs class="" />
     <Einsatzgebiete class="mb-12 mt-28 px-5 md:px-20 xl:px-0" />
     <!-- Additional services section with highlighted information -->
 
