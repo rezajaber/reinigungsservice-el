@@ -45,9 +45,9 @@ const checks = [
         </h3>
 
         <h2
-          class="mb-6 text-[28px] font-bold leading-[36px] sm:text-4xl sm:leading-[46px] xl:text-[44px]"
+          class="mb-6 text-[28px] font-bold leading-[36px] sm:text-4xl sm:leading-[46px] lg:text-[44px]"
         >
-          Our Promise Is To Deliver Only <br class="hidden xl:block" />The Best
+          Our Promise Is To Deliver Only <br class="hidden lg:block" />The Best
           <span class="font-title text-primary">Services</span>
         </h2>
 
