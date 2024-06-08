@@ -21,7 +21,9 @@ const scrollTo = (id: string, behavior: ScrollBehavior = 'auto') => {
 
 <template>
   <div class="shadow-md">
-    <div class="mx-auto flex h-20 items-center justify-between lg:h-24 2xl:max-w-[1440px]">
+    <div
+      class="mx-auto flex h-20 items-center justify-between px-4 md:px-10 lg:h-24 lg:px-12 xl:px-16 2xl:max-w-[1440px] 2xl:px-20"
+    >
       <img src="../assets/img/logo.png" class="w-10 lg:w-14" alt="Logo" />
 
       <!-- MOBILE MENU -->

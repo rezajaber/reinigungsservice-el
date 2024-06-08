@@ -19,7 +19,9 @@ import { ClipboardList, NotebookPen } from 'lucide-vue-next'
         alt="Hero Overlay"
       />
 
-      <div class="absolute inset-0 mx-auto flex items-center text-white 2xl:max-w-[1440px]">
+      <div
+        class="absolute inset-0 mx-auto flex items-center px-4 text-white md:px-10 lg:px-12 xl:px-16 2xl:max-w-[1440px] 2xl:px-20"
+      >
         <div class="grid place-items-center lg:place-items-start">
           <span class="flex items-end gap-3 text-xl font-medium text-subtitle">
             <img class="mb-1.5 w-7" src="../assets/img/broom-icon.svg" alt="Broom Icon" />CLEAN YOUR

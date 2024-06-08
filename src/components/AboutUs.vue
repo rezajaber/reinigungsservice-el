@@ -25,7 +25,9 @@ const checks = [
 
 <template>
   <div>
-    <div class="mx-auto flex flex-col xl:flex-row 2xl:max-w-[1440px]">
+    <div
+      class="mx-auto flex flex-col px-4 md:px-10 lg:px-12 xl:flex-row xl:px-16 2xl:max-w-[1440px] 2xl:px-20"
+    >
       <!-- LEFT SECTION -->
       <div class="xl:w-1/3">
         <img class="rounded-xl object-cover" src="../assets/img/about-us-one.jpeg" alt="" />

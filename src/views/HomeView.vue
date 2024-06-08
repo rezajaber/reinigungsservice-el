@@ -15,20 +15,20 @@ import Footer from '../components/Footer.vue'
 <template>
   <div>
     <Header class="fixed inset-x-0 top-0 z-10 bg-white" />
-    <Hero class="py-20 lg:py-24" />
-    <AboutUs class="py-20" />
+    <Hero class="" />
+    <AboutUs class="" />
 
     <div class="bg-[#EBF3FE]">
-      <Vorteile class="py-20" />
-      <Einsatzorte class="py-20" />
+      <Vorteile class="" />
+      <Einsatzorte class="" />
     </div>
 
-    <Leistungen class="py-20" />
+    <Leistungen class="" />
 
-    <Einsatzgebiete class="mb-12 mt-28 px-5 md:px-20 xl:px-0" />
+    <Einsatzgebiete class="" />
     <!-- Additional services section with highlighted information -->
 
-    <ContactUs id="contact-us" class="bg-primary px-5 py-8 md:px-20 md:py-20 xl:px-0" />
-    <Footer class="bg-popover-foreground py-12 lg:px-20" />
+    <ContactUs id="contact-us" class="x bg-primary" />
+    <Footer class="bg-popover-foreground" />
   </div>
 </template>

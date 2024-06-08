@@ -32,7 +32,7 @@ const icons = [SearchCheck, ClipboardList, HeartHandshake]
 
 <template>
   <div>
-    <div class="mx-auto max-w-[1440px]">
+    <div class="mx-auto max-w-[1440px] px-4 md:px-10 lg:px-12 xl:px-16 2xl:px-20">
       <div class="grid grid-cols-3">
         <div
           v-for="(vorteil, index) in vorteile"

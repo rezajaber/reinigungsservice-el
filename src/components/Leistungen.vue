@@ -13,7 +13,7 @@ import { Card, CardContent } from '@/components/ui/card'
 
 <template>
   <div>
-    <div class="mx-auto max-w-[1440px]">
+    <div class="mx-auto max-w-[1440px] px-4 md:px-10 lg:px-12 xl:px-16 2xl:px-20">
       <div class="mb-12">
         <span class="flex items-end gap-3 text-xl font-medium text-subtitle">
           <img class="mb-1.5 w-7" src="../assets/img/broom-icon.svg" alt="Broom Icon" />ABOUT
