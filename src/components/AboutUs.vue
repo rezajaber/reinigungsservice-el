@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Button from './ui/button/Button.vue'
+import Button from '@/components/ui/button/Button.vue'
 
 import { ShieldCheck, NotebookPen } from 'lucide-vue-next'
 
@@ -25,9 +25,7 @@ const checks = [
 
 <template>
   <div>
-    <div
-      class="mx-auto flex flex-col items-center gap-10 px-4 md:px-12 xl:flex-row xl:gap-32 xl:px-20 2xl:max-w-[1440px]"
-    >
+    <div class="mx-auto flex flex-col xl:flex-row 2xl:max-w-[1440px]">
       <!-- LEFT SECTION -->
       <div class="xl:w-1/3">
         <img class="rounded-xl object-cover" src="../assets/img/about-us-one.jpeg" alt="" />

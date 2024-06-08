@@ -37,7 +37,7 @@ const icons = [SearchCheck, ClipboardList, HeartHandshake]
         <div
           v-for="(vorteil, index) in vorteile"
           :key="vorteil.id"
-          class="group relative flex flex-col rounded-xl bg-white px-8 pb-10 pt-16 shadow-xl"
+          class="group relative flex flex-col rounded-xl bg-white px-8 pb-10 pt-16 shadow-lg"
         >
           <component
             :is="icons[index]"

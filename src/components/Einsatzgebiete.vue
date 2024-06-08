@@ -33,7 +33,7 @@ const stadtteile = [
 
 <template>
   <div
-    class="mx-auto flex max-w-[1080px] flex-col justify-center gap-10 lg:flex-row lg:items-center"
+    class="mx-auto flex max-w-[1440px] flex-col justify-center gap-10 lg:flex-row lg:items-center"
   >
     <img
       src="../assets/img/hamburg.jpg"

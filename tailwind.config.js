@@ -27,6 +27,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        icon: '#1239AC',
         subtitle: '#54B435',
         description: '#74757B',
         border: 'hsl(var(--border))',

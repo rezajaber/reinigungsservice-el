@@ -3,7 +3,7 @@
 <template>
   <div>
     <div
-      class="mx-auto flex max-w-[1080px] flex-col items-center justify-center gap-4 md:justify-between lg:flex-row"
+      class="mx-auto flex max-w-[1440px] flex-col items-center justify-center gap-4 md:justify-between lg:flex-row"
     >
       <img src="../assets/img/logo.png" class="w-16" alt="Footer-Logo" />
 

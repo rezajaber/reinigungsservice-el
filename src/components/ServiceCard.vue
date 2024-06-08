@@ -1,5 +1,6 @@
 <script setup>
-import Button from './ui/button/Button.vue'
+import Button from '@/components/ui/button/Button.vue'
+
 import { ArrowUpRight, Warehouse } from 'lucide-vue-next'
 
 defineProps({
@@ -11,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="w-[410px] overflow-hidden rounded-xl pb-4 shadow-lg">
+  <div class="w-[410px] overflow-hidden rounded-xl pb-4 shadow-md">
     <img class="w-full object-cover" :src="image" alt="Card image" />
 
     <div class="relative grid place-items-center px-6 py-4 text-center">

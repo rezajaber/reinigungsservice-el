@@ -5,8 +5,8 @@ import { Phone, PhoneCall } from 'lucide-vue-next'
 </script>
 
 <template>
-  <div class="">
-    <div class="mx-auto grid max-w-[1080px] gap-10">
+  <div>
+    <div class="mx-auto grid max-w-[1440px] gap-10">
       <div class="grid gap-5 text-white">
         <h3
           class="break-words text-center text-[26px] font-bold leading-7 tracking-wide md:text-start"
