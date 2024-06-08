@@ -18,12 +18,10 @@ import Footer from '../components/Footer.vue'
     <Hero class="py-20 lg:py-24" />
     <AboutUs class="pb-20 lg:pb-24" />
 
-    <div class="grid gap-20 bg-[#EBF3FE] py-20 lg:py-24">
-      <Vorteile class="" />
-      <Einsatzorte class="" />
-    </div>
+    <Vorteile class="bg-[#EBF3FE] py-20 lg:py-24" />
 
     <Leistungen class="py-20 lg:py-24" />
+    <Einsatzorte class="" />
 
     <Einsatzgebiete class="pb-20 lg:pb-24" />
     <!-- Additional services section with highlighted information -->
