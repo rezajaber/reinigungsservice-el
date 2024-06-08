@@ -26,7 +26,7 @@ const checks = [
 <template>
   <div>
     <div
-      class="mx-auto flex flex-col gap-8 px-4 md:px-10 lg:px-12 xl:flex-row xl:gap-44 xl:px-16 2xl:max-w-[1440px] 2xl:px-20"
+      class="mx-auto flex flex-col gap-8 px-4 md:px-10 lg:flex-row lg:px-12 xl:gap-44 xl:px-16 2xl:max-w-[1440px] 2xl:px-20"
     >
       <!-- LEFT SECTION -->
       <div class="xl:w-1/3">
@@ -38,7 +38,7 @@ const checks = [
       </div>
 
       <!-- RIGHT SECTION -->
-      <div class="grid place-items-center text-center xl:w-2/3 xl:place-items-start xl:text-start">
+      <div class="grid place-items-center text-center lg:w-2/3 lg:place-items-start lg:text-start">
         <h3 class="mb-5 flex items-end gap-3 text-xl font-medium text-subtitle">
           <img class="mb-1.5 w-7" src="../assets/img/broom-icon.svg" alt="Broom Icon" />ABOUT
           COMPANY
