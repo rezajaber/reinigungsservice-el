@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import CardComponent from '@/components/ServiceCard.vue'
+import ServiceCard from '@/components/ServiceCard.vue'
+import { Warehouse, ArrowUpRight } from 'lucide-vue-next'
 
+import Button from './ui/button/Button.vue'
+import { Card, CardContent } from '@/components/ui/card'
 import {
   Carousel,
   CarouselContent,
@@ -35,26 +38,33 @@ import {
       </div>
 
       <!-- CAROUSEL SECTION -->
+
       <Carousel
-        class="h-full py-4"
+        class="relative w-full"
         :opts="{
           align: 'start'
         }"
       >
         <CarouselContent>
           <CarouselItem v-for="(_, index) in 5" :key="index" class="md:basis-1/2 lg:basis-1/3">
-            <CardComponent
-              image="../src/assets/img/service-card-one.jpeg"
-              title="Window Cleaning"
-              description="General Cleaning is a House a cleaning this includes dusting, floors, wiping."
-              link="/window-cleaning"
-            />
+            <div class="p-1">
+              <Card>
+                <CardContent class="flex aspect-square items-center justify-center p-0">
+                  <ServiceCard />
+                </CardContent>
+              </Card>
+            </div>
           </CarouselItem>
         </CarouselContent>
-
         <CarouselPrevious class="lg:mr-16" />
         <CarouselNext />
       </Carousel>
     </div>
   </div>
 </template>
+
+<style scoped>
+.rhombus {
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0% 50%);
+}
+</style>
