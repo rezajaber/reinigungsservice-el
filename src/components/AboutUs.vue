@@ -26,7 +26,7 @@ const checks = [
 <template>
   <div>
     <div
-      class="mx-auto flex flex-col px-4 md:px-10 lg:px-12 xl:flex-row xl:px-16 2xl:max-w-[1440px] 2xl:px-20"
+      class="mx-auto flex flex-col gap-8 px-4 md:px-10 lg:px-12 xl:flex-row xl:gap-44 xl:px-16 2xl:max-w-[1440px] 2xl:px-20"
     >
       <!-- LEFT SECTION -->
       <div class="xl:w-1/3">
@@ -39,23 +39,25 @@ const checks = [
 
       <!-- RIGHT SECTION -->
       <div class="grid place-items-center text-center xl:w-2/3 xl:place-items-start xl:text-start">
-        <span class="flex items-end gap-3 text-xl font-medium text-subtitle">
+        <h3 class="mb-5 flex items-end gap-3 text-xl font-medium text-subtitle">
           <img class="mb-1.5 w-7" src="../assets/img/broom-icon.svg" alt="Broom Icon" />ABOUT
           COMPANY
-        </span>
+        </h3>
 
-        <h1 class="mt-5 text-3xl font-bold sm:mt-6 sm:text-4xl sm:leading-[50px] xl:text-5xl">
-          Our Promise Is To Deliver Only The Best
+        <h2
+          class="mb-6 text-[28px] font-bold leading-[36px] sm:text-4xl sm:leading-[46px] xl:text-[44px]"
+        >
+          Our Promise Is To Deliver Only <br class="hidden xl:block" />The Best
           <span class="font-title text-primary">Services</span>
-        </h1>
+        </h2>
 
-        <p class="text-description mt-6 font-light leading-7 tracking-wide">
+        <p class="text-description font-light leading-7 xl:text-justify">
           For over a decade, our cleaning service company an beacon of cleanliness and
           professionalism We take pride in providing top-tier cleaning solutions to businesses,
           ensuring their spaces are pristine, healthy, and inviting for employees.
         </p>
 
-        <div class="mt-8 grid gap-2 gap-x-10 sm:grid-cols-2 md:gap-y-4 xl:gap-2.5">
+        <div class="mt-8 grid gap-2 gap-x-10 sm:grid-cols-2 md:gap-y-4 xl:gap-x-10 xl:gap-y-2.5">
           <div v-for="check in checks" :key="check.index" class="flex items-center">
             <ShieldCheck class="mr-2 h-8 w-8 fill-primary stroke-white" />
             <p class="font-medium tracking-wide">{{ check.description }}</p>
