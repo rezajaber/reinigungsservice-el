@@ -50,7 +50,7 @@ const stadtteile = [
             Unsere <span class="font-title text-primary">Einsatzgebiete</span> in Hamburg
           </h2>
 
-          <p class="text-description mb-8 font-light leading-7 xl:text-justify">
+          <p class="mb-8 font-light leading-7 text-description xl:text-justify">
             Wir sind stolz darauf, in ganz Hamburg für Sauberkeit und Ordnung zu sorgen. Von Altona
             bis Zollenspieker – unser Team ist in allen Stadtteilen der Hansestadt für Sie im
             Einsatz:
@@ -59,7 +59,7 @@ const stadtteile = [
           <!-- UP SECTION -->
           <img
             class="mb-8 h-96 rounded-lg object-cover lg:hidden"
-            src="../assets/img/hamburg.jpg"
+            src="../assets/img/hamburg.webp"
             alt=""
           />
 
@@ -74,7 +74,7 @@ const stadtteile = [
         <div class="lg:w-1/2">
           <img
             class="hidden rounded-lg object-cover lg:block"
-            src="../assets/img/hamburg.jpg"
+            src="../assets/img/hamburg.webp"
             alt=""
           />
         </div>

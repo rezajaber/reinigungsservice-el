@@ -61,15 +61,15 @@ const scrollTo = (id: string) => {
   <div>
     <div class="relative">
       <img
-        class="h-[700px] w-full transform object-cover transition-transform duration-500 ease-in-out hover:scale-105 lg:h-[800px]"
-        src="../assets/img/hero.jpg"
+        class="h-[700px] w-full object-cover transition-transform duration-500 ease-in-out hover:scale-105 lg:h-[800px]"
+        src="../assets/img/hero.webp"
         alt="Hero Image"
       />
 
       <!-- Gradient overlay -->
       <div class="">
         <img
-          class="absolute top-0 h-full w-full object-cover"
+          class="absolute top-0 h-full w-full object-cover opacity-95"
           src="../assets/img/hero-overlay.png"
           alt="Hero Overlay"
         />

@@ -30,7 +30,7 @@ const checks = [
     >
       <!-- LEFT SECTION -->
       <div class="relative xl:w-1/3">
-        <img class="rounded-xl object-cover" src="../assets/img/büro.jpg" alt="" />
+        <img class="rounded-xl object-cover" src="../assets/img/buerogebäude.webp" alt="" />
         <div class="mt-4 flex gap-2.5">
           <span class="font-body text-6xl font-bold text-primary">35</span>
           <p class="font-title text-xl font-bold">Years <br />Experience</p>
