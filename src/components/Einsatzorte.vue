@@ -30,32 +30,13 @@ const vorteile = [
 
 <template>
   <div>
-    <div class="mx-auto max-w-[1440px] px-4 md:px-10 lg:px-12 xl:px-16 2xl:px-20">
-      <div class="mb-20">
-        <span class="flex items-end gap-3 text-xl font-medium text-subtitle">
-          <img
-            class="mb-1.5 w-7"
-            src="../assets/img/broom-icon.svg"
-            alt="Broom Icon"
-          />PROFESSIONELLER SERVICE
-        </span>
-
-        <h1 class="mt-6 text-5xl font-bold">
-          Our Promise Is To Deliver Only <br />The Best
-          <span class="font-title text-primary">Services</span>
-        </h1>
-      </div>
-
-      <div class="grid gap-20 md:grid-cols-2 md:gap-8 md:gap-y-20 lg:grid-cols-3">
+    <div class="mx-auto max-w-[1440px] px-4 md:px-10 lg:px-12 xl:px-20 2xl:px-0">
+      <div class="grid gap-5 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
         <div
           v-for="(vorteil, index) in vorteile"
           :key="vorteil.id"
-          class="card group relative flex flex-col rounded-lg bg-white px-8 pb-10 pt-16 duration-500 ease-in-out hover:-translate-y-2 hover:scale-105"
+          class="card group relative flex flex-col rounded-lg bg-white p-10 px-8 duration-500 ease-in-out hover:scale-[1.03]"
         >
-          <component
-            :is="icons[index]"
-            class="stroke-icon group-hover:bg-icon absolute -top-14 h-20 w-20 rounded-full bg-[#F4F7FF] stroke-1 p-5 duration-300 ease-in-out group-hover:stroke-white md:h-[90px] md:w-[90px] lg:h-24 lg:w-24 lg:p-6"
-          />
           <h3
             class="text-icon mb-[10px] mt-2 text-start text-[26px] font-bold leading-[31px] tracking-wide"
           >

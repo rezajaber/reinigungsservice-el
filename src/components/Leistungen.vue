@@ -15,9 +15,9 @@ import {
 
 <template>
   <div>
-    <div class="mx-auto max-w-[1440px] px-4 md:px-10 lg:px-12 xl:px-16 2xl:px-20">
+    <div class="mx-auto max-w-[1440px] px-4 md:px-10 lg:px-12 xl:px-20 2xl:px-0">
       <!-- TITLE SECTION -->
-      <div class="mb-24 lg:mb-14">
+      <div class="relative mb-24 lg:mb-14">
         <h3
           class="mb-6 flex items-end justify-center gap-3 text-xl font-medium text-subtitle lg:justify-start"
         >
@@ -35,18 +35,23 @@ import {
           <br class="hidden md:block" />
           On Your Door
         </h1>
+
+        <img
+          class="absolute -right-2 -top-5 animate-bounce-slow"
+          src="../assets/img/vectors/blue-stars.png"
+          alt=""
+        />
       </div>
 
       <!-- CAROUSEL SECTION -->
-
       <Carousel
-        class="relative w-full"
+        class="relative w-full outline-none"
         :opts="{
           align: 'start'
         }"
       >
         <CarouselContent>
-          <CarouselItem v-for="(_, index) in 5" :key="index" class="md:basis-1/2 lg:basis-1/3">
+          <CarouselItem v-for="(_, index) in 5" :key="index" class="sm:basis-1/2 lg:basis-1/3">
             <div class="p-1">
               <Card>
                 <CardContent class="flex aspect-square items-center justify-center p-0">
@@ -66,5 +71,21 @@ import {
 <style scoped>
 .rhombus {
   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.broom {
+  animation: moveLeftRight 2s infinite; /* Adjust duration as needed */
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px); /* Move left by 10 pixels */
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 </style>

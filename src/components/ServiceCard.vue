@@ -23,7 +23,7 @@ defineProps({
       </div>
 
       <h3 class="mt-8 text-2xl font-bold">Titel der Wäsche</h3>
-      <p class="text-description mt-3.5 text-sm font-light leading-7">
+      <p class="mt-3.5 text-sm font-light leading-7 text-description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sed sint rerum ea voluptatum
         minus dolorum quam autem cumque commodi earum odio
       </p>

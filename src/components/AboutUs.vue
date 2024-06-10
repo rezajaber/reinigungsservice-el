@@ -26,15 +26,21 @@ const checks = [
 <template>
   <div>
     <div
-      class="mx-auto flex flex-col gap-8 px-4 md:px-10 lg:flex-row lg:px-12 xl:gap-44 xl:px-16 2xl:max-w-[1440px] 2xl:px-20"
+      class="mx-auto flex flex-col gap-8 px-4 md:px-10 lg:flex-row lg:px-12 xl:gap-44 xl:px-20 2xl:max-w-[1440px] 2xl:px-0"
     >
       <!-- LEFT SECTION -->
-      <div class="xl:w-1/3">
-        <img class="rounded-xl object-cover" src="../assets/img/about-us-one.jpeg" alt="" />
+      <div class="relative xl:w-1/3">
+        <img class="rounded-xl object-cover" src="../assets/img/büro.jpg" alt="" />
         <div class="mt-4 flex gap-2.5">
           <span class="font-body text-6xl font-bold text-primary">35</span>
           <p class="font-title text-xl font-bold">Years <br />Experience</p>
         </div>
+
+        <img
+          class="absolute -left-3 -top-6 w-14 animate-spin-slow md:-left-10 md:-top-10 md:w-24"
+          src="../assets/img/vectors/circle.png"
+          alt=""
+        />
       </div>
 
       <!-- RIGHT SECTION -->
@@ -51,7 +57,7 @@ const checks = [
           <span class="font-title text-primary">Services</span>
         </h2>
 
-        <p class="text-description font-light leading-7 xl:text-justify">
+        <p class="font-light leading-7 text-description xl:text-justify">
           For over a decade, our cleaning service company an beacon of cleanliness and
           professionalism We take pride in providing top-tier cleaning solutions to businesses,
           ensuring their spaces are pristine, healthy, and inviting for employees.

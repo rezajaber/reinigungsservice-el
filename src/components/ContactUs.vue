@@ -6,7 +6,7 @@ import { Phone, PhoneCall } from 'lucide-vue-next'
 
 <template>
   <div>
-    <div class="mx-auto max-w-[1440px] px-4 md:px-10 lg:px-12 xl:px-16 2xl:px-20">
+    <div class="mx-auto max-w-[1440px] px-4 md:px-10 lg:px-12 xl:px-20 2xl:px-0">
       <div class="grid gap-10">
         <div class="grid gap-5 text-white">
           <h3
@@ -24,7 +24,7 @@ import { Phone, PhoneCall } from 'lucide-vue-next'
         </div>
 
         <div
-          class="grid place-items-center rounded-lg bg-secondary px-3.5 py-12 md:px-10 lg:flex lg:gap-44"
+          class="relative grid place-items-center rounded-lg bg-secondary px-3.5 py-12 md:px-10 lg:flex lg:gap-44"
         >
           <div class="grid place-items-center gap-4 text-center lg:place-items-start">
             <div class="grid place-items-center lg:flex lg:items-center lg:gap-4">
