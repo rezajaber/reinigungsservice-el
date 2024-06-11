@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Warehouse, ArrowUpRight } from 'lucide-vue-next'
+import { Stars, ArrowUpRight } from 'lucide-vue-next'
 import Button from './ui/button/Button.vue'
 import { Card, CardContent } from '@/components/ui/card'
 import {
@@ -85,6 +85,19 @@ const services = [
       'Unsere fachmännische Reinigung von Glasflächen und Fenstern sorgt für eine klare Sicht und blendende Sauberkeit in allen Gebäuden. Ob hochgelegene Fenster oder empfindliche Glasstrukturen – wir verwenden spezielle Techniken und Ausrüstungen, um strahlende Ergebnisse ohne Streifen oder Rückstände zu erzielen.'
   }
 ]
+
+const scrollTo = (id: string) => {
+  const element = document.getElementById(id)
+  if (element) {
+    const offset = -50
+    const elementPosition = element.getBoundingClientRect().top + window.scrollY
+    const offsetPosition = elementPosition + offset
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    })
+  }
+}
 </script>
 
 <template>
@@ -141,7 +154,7 @@ const services = [
                       class="relative flex flex-grow flex-col items-center justify-between px-6 py-4 text-center"
                     >
                       <div class="rhombus absolute -top-11 flex w-56 justify-center bg-white py-6">
-                        <Warehouse class="h-10 w-10 stroke-primary stroke-1" />
+                        <Stars class="h-10 w-10 stroke-primary stroke-1" />
                       </div>
 
                       <h3 class="mt-8 text-2xl font-bold">{{ service.title }}</h3>
@@ -150,7 +163,7 @@ const services = [
                       >
                         {{ service.description }}
                       </p>
-                      <Button class="my-6 h-11 px-8"
+                      <Button @click="scrollTo('contact-us')" class="my-6 h-11 px-8"
                         >Mehr Info<ArrowUpRight class="ml-1.5 h-5 w-5"
                       /></Button>
                     </div>

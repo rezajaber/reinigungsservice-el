@@ -21,26 +21,42 @@ const checks = [
     description: 'Schneller Support'
   }
 ]
+
+const scrollTo = (id: string) => {
+  const element = document.getElementById(id)
+  if (element) {
+    const offset = -50
+    const elementPosition = element.getBoundingClientRect().top + window.scrollY
+    const offsetPosition = elementPosition + offset
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    })
+  }
+}
 </script>
 
 <template>
   <div>
     <div
-      class="mx-auto flex flex-col gap-8 px-4 md:px-10 lg:flex-row lg:px-12 xl:gap-44 xl:px-20 2xl:max-w-[1440px] 2xl:px-0"
+      class="mx-auto flex w-full flex-col items-center gap-8 px-4 md:px-10 lg:flex-row lg:gap-12 lg:px-12 xl:px-20 2xl:max-w-[1440px] 2xl:px-0"
     >
       <!-- LEFT SECTION -->
-      <div class="relative xl:w-1/3">
-        <img class="w-96 rounded-xl object-cover" src="../assets/img/buerogebäude.webp" alt="" />
-        <div class="mt-4 flex gap-2.5">
-          <span class="font-body text-6xl font-bold text-primary">35</span>
-          <p class="font-title text-xl font-bold">Years <br />Experience</p>
-        </div>
+      <div class="relative">
+        <div class="">
+          <img class="w-96 rounded-xl object-cover" src="../assets/img/buerogebäude.webp" alt="" />
 
-        <img
-          class="absolute -left-3 -top-6 w-14 animate-spin-slow md:-left-10 md:-top-10 md:w-24"
-          src="../assets/img/vectors/circle.png"
-          alt=""
-        />
+          <img
+            class="absolute -left-4 -top-4 w-10 animate-spin-slow md:-left-10 md:-top-12 md:w-24"
+            src="../assets/img/vectors/circle.png"
+            alt=""
+          />
+
+          <div class="mt-4 flex items-center justify-center gap-2.5">
+            <span class="font-body text-6xl font-bold text-primary">NEU</span>
+            <p class="font-title text-xl font-bold">JUNG · <br class="hidden" />AGIL</p>
+          </div>
+        </div>
       </div>
 
       <!-- RIGHT SECTION -->
@@ -70,7 +86,9 @@ const checks = [
           </div>
         </div>
 
-        <Button class="mt-8 h-14 px-6"><NotebookPen class="mr-1.5 w-5" />Angebot anfordern</Button>
+        <Button @click="scrollTo('contact-us')" class="mt-8 h-14 px-6"
+          ><NotebookPen class="mr-1.5 w-5" />Angebot anfordern</Button
+        >
       </div>
     </div>
   </div>
