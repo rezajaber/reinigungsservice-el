@@ -62,6 +62,7 @@ const scrollTo = (id: string) => {
     <div class="relative">
       <img
         class="h-[700px] w-full object-cover transition-transform duration-500 ease-in-out hover:scale-105 lg:h-[800px]"
+        style="object-position: 50% 25%"
         src="../assets/img/hero.webp"
         alt="Hero Image"
       />
