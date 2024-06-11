@@ -69,20 +69,17 @@ const vorteile = [
         <h3
           class="mb-6 flex items-end justify-center gap-3 text-xl font-medium text-subtitle lg:justify-start"
         >
-          <img
-            class="mb-1.5 w-7"
-            src="../assets/img/broom-icon.svg"
-            alt="Broom Icon"
-          />PROFESSIONELLER SERVICE
+          <img class="mb-1.5 w-7" src="../assets/img/broom-icon.svg" alt="Broom Icon" />WIR BIETEN
+          IHNEN
         </h3>
 
         <h1
           class="text-center text-[28px] font-bold leading-9 md:text-4xl md:leading-[46px] lg:text-start lg:text-[44px]"
         >
           Unsere
-          <span class="font-title text-primary">Reinigungsdienste</span>
+          <span class="font-title text-primary">Versprechen</span>
           <br class="hidden md:block" />
-          direkt vor Ihrer Tür
+          für Ihre Zufriedenheit
         </h1>
       </div>
 
