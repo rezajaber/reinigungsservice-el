@@ -108,25 +108,24 @@ const scrollTo = (id: string) => {
       >
         <div class="grid place-items-center lg:place-items-start">
           <span class="flex items-end gap-3 text-xl font-medium text-subtitle">
-            <img class="mb-1.5 w-7" src="../assets/img/broom-icon.svg" alt="Broom Icon" />CLEAN YOUR
-            HOME
-          </span>
+            <img class="mb-1.5 w-7" src="../assets/img/broom-icon.svg" alt="Broom Icon" />Willkommen
+            bei EL-Reinigung</span
+          >
 
           <h1
             class="mt-8 text-center text-4xl font-bold tracking-wide text-white sm:text-5xl md:text-6xl md:leading-[65px] lg:text-start"
           >
-            RESIDENTIAL REVIVE <br />CLEAN
-            <span class="outlined font-title text-transparent">SERVICE</span>
+            WEIL SAUBERKEIT <br />VERTRAUEN
+            <span class="outlined font-title text-transparent">SCHAFFT</span>
           </h1>
 
           <p
             class="mt-5 text-center text-base font-light leading-7 tracking-wide text-white lg:text-start"
           >
-            With our professional cleaning service, you can count on us to provide a meticulous and
-            top-tier <br class="hidden lg:block" />
-            cleaning experience for both residential and commercial spaces, Kitchen, carpet, toilet,
-            leaving <br class="hidden lg:block" />your environment spotless and revitalized on every
-            occasion.
+            Entdecken Sie makellose Sauberkeit mit einem persönlichen Touch. Egal ob für Ihr Zuhause
+            oder Ihr Geschäft,<br class="hidden lg:block" />
+            EL steht für Qualität, Zuverlässigkeit und Diskretion. Lassen Sie Ihre Räumlichkeiten in
+            neuem Glanz erstrahlen.
           </p>
 
           <div class="mt-8 grid gap-4 sm:flex">

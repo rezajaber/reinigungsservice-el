@@ -95,31 +95,27 @@ import { Phone, Mail } from 'lucide-vue-next'
             Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
 
             <br /><br />
-            <p class="text-lg font-medium">Externes Hosting</p>
-            Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website
-            erfasst werden, werden auf den Servern des Hosters / der Hoster gespeichert. Hierbei
-            kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten,
-            Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine
-            Website generiert werden, handeln.
+            <p class="text-lg font-medium">Hetzner</p>
+            Anbieter ist die Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen (nachfolgend
+            Hetzner). <br /><br />Details entnehmen Sie der Datenschutzerklärung von Hetzner:
+            <a href="https://www.hetzner.com/de/rechtliches/datenschutz.">Hetzner-Datenschutz</a>
+            <br /><br />
+            Die Verwendung von Hetzner erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir
+            haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer
+            Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die
+            Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1
+            TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf
+            Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TDDDG
+            umfasst. Die Einwilligung ist jederzeit widerrufbar.
 
             <br /><br />
-            Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren
-            potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer
-            sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen
-            professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Sofern eine entsprechende
-            Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von
-            Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die
-            Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z.
-            B. Device-Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit
-            widerrufbar.
-
+            <p class="font-medium">Auftragsverarbeitung</p>
             <br /><br />
-            Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur
-            Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf
-            diese Daten befolgen.
-
-            <br /><br />
-            Wir setzen folgende(n) Hoster ein: Google Workspace
+            Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten
+            Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich
+            vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten
+            unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO
+            verarbeitet.
 
             <br /><br />
             <p class="mb-2 text-xl font-medium">3. Allgemeine Hinweise und Pflichtinformationen</p>
@@ -146,10 +142,13 @@ import { Phone, Mail } from 'lucide-vue-next'
             Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
             <br /><br />
-            Google
+            Faruk Taraky <br />
+            Schwentnerring <br />
+            36 21109 Hamburg
 
-            <br /><br />Telefon: [Telefonnummer der verantwortlichen Stelle] <br />E-Mail:
-            [E-Mail-Adresse der verantwortlichen Stelle]
+            <br /><br />
+            Telefon: +49 174 9524843 <br />
+            E-Mail: info@el-reinigung.de
 
             <br /><br />
             Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder
@@ -210,6 +209,7 @@ import { Phone, Mail } from 'lucide-vue-next'
             Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit
             der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
 
+            <br /><br />
             <p class="text-lg font-medium">
               Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen
               Direktwerbung (Art. 21 DSGVO)
@@ -304,161 +304,61 @@ import { Phone, Mail } from 'lucide-vue-next'
             Werbeinformationen, etwa durch Spam-E-Mails, vor.
 
             <br /><br />
-            <p class="text-xl font-medium">4. Datenerfassung auf dieser Website</p>
+            <p class="mb-2 text-xl font-medium">4. Datenerfassung auf dieser Website</p>
 
-            <p class="text-lg font-medium">Cookies</p>
-            Cookies Unsere Internetseiten verwenden so genannte „Cookies“. Cookies sind kleine
-            Datenpakete und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder
-            vorübergehend für die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente
-            Cookies) auf Ihrem Endgerät gespeichert. Session-Cookies werden nach Ende Ihres Besuchs
-            automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie
-            diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser erfolgt.
-            Cookies können von uns (First-Party-Cookies) oder von Drittunternehmen stammen (sog.
-            Third-Party- Cookies). Third-Party-Cookies ermöglichen die Einbindung bestimmter
-            Dienstleistungen von Drittunternehmen innerhalb von Webseiten (z. B. Cookies zur
-            Abwicklung von Zahlungsdienstleistungen).
+            <p class="text-lg font-medium">Anfrage per E-Mail, Telefon oder Telefax</p>
+            Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive
+            aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der
+            Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir
+            nicht ohne Ihre Einwilligung weiter.
 
             <br /><br />
-            Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwendig, da
-            bestimmte Webseitenfunktionen ohne diese nicht funktionieren würden (z. B. die
-            Warenkorbfunktion oder die Anzeige von Videos). Andere Cookies können zur Auswertung des
-            Nutzerverhaltens oder zu Werbezwecken verwendet werden.
+            Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO,
+            sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung
+            vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die
+            Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns
+            gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6
+            Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit
+            widerrufbar.
 
             <br /><br />
-            Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs, zur
-            Bereitstellung bestimmter, von Ihnen erwünschter Funktionen (z. B. für die
-            Warenkorbfunktion) oder zur Optimierung der Website (z. B. Cookies zur Messung des
-            Webpublikums) erforderlich sind (notwendige Cookies), werden auf Grundlage von Art. 6
-            Abs. 1 lit. f DSGVO gespeichert, sofern keine andere Rechtsgrundlage angegeben wird. Der
-            Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von notwendigen
-            Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Sofern
-            eine Einwilligung zur Speicherung von Cookies und vergleichbaren
-            Wiedererkennungstechnologien abgefragt wurde, erfolgt die Verarbeitung ausschließlich
-            auf Grundlage dieser Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG);
-            die Einwilligung ist jederzeit widerrufbar.
+            Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie
+            uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck
+            für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres
+            Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche
+            Aufbewahrungsfristen – bleiben unberührt.
 
             <br /><br />
-            Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert
-            werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte
-            Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim
-            Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die
-            Funktionalität dieser Website eingeschränkt sein.
+            <p class="mb-2 text-xl font-medium">5. Plugins und Tools</p>
+
+            <p class="text-lg font-medium">Google Fonts</p>
+
+            Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Google
+            Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser
+            die benötigten Fonts in ihren Browsercache, um Texte und Schriftarten korrekt
+            anzuzeigen.
 
             <br /><br />
-            Welche Cookies und Dienste auf dieser Website eingesetzt werden, können Sie dieser
-            Datenschutzerklärung entnehmen.
+            Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von
+            Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse
+            diese Website aufgerufen wurde. Die Nutzung von Google Fonts erfolgt auf Grundlage von
+            Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der
+            einheitlichen Darstellung des Schriftbildes auf seiner Website. Sofern eine
+            entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf
+            Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung
+            die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers
+            (z. B. DeviceFingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit
+            widerrufbar.
 
             <br /><br />
-            Anfrage per E-Mail, Telefon oder Telefax Wenn Sie uns per E-Mail, Telefon oder Telefax
-            kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen
-            Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und
-            verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung
-            dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage
-            mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher
-            Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem
-            berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen
-            (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)
-            sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar. Die von Ihnen
-            an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur
-            Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die
-            Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens).
-            Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen –
-            bleiben unberührt.
+            Wenn Ihr Browser Google Fonts nicht unterstützt, wird eine Standardschrift von Ihrem
+            Computer genutzt.
 
             <br /><br />
-            <p class="text-xl font-medium">5. Soziale Medien</p>
-
-            <p class="text-lg font-medium">Social-Media-Elemente mit Shariff</p>
-
-            Auf dieser Website werden Elemente von sozialen Medien verwendet (z. B. Facebook, X,
-            Instagram, Pinterest, XING, LinkedIn, Tumblr).
-
-            <br /><br />
-            Die Social-Media-Elemente können Sie in der Regel anhand der jeweiligen
-            Social-Media-Logos erkennen. Um den Datenschutz auf dieser Website zu gewährleisten,
-            verwenden wir diese Elemente nur zusammen mit der sogenannten „Shariff“-Lösung. Diese
-            Anwendung verhindert, dass die auf dieser Website integrierten Social-Media-Elemente
-            Ihre personenbezogenen Daten schon beim ersten Betreten der Seite an den jeweiligen
-            Anbieter übertragen.
-
-            <br /><br />
-            Erst wenn Sie das jeweilige Social-Media-Element durch Anklicken der zugehörigen
-            Schaltfläche aktivieren, wird eine direkte Verbindung zum Server des Anbieters
-            hergestellt (Einwilligung). Sobald Sie das Social- Media-Element aktivieren, erhält der
-            jeweilige Anbieter die Information, dass Sie mit Ihrer IP-Adresse diese Website besucht
-            haben. Wenn Sie gleichzeitig in Ihrem jeweiligen Social-Media-Account (z. B. Facebook)
-            eingeloggt sind, kann der jeweilige Anbieter den Besuch dieser Website Ihrem
-            Benutzerkonto zuordnen.
-
-            <br /><br />
-            Das Aktivieren des Plugins stellt eine Einwilligung im Sinne des Art. 6 Abs. 1 lit. a
-            DSGVO und § 25 Abs. 1 TDDDG dar. Diese Einwilligung können Sie jederzeit mit Wirkung für
-            die Zukunft widerrufen.
-
-            <br /><br />
-            Der Einsatz des Dienstes erfolgt, um die gesetzlich vorgeschriebenen Einwilligungen für
-            den Einsatz bestimmter Technologien einzuholen. Rechtsgrundlage hierfür ist Art. 6 Abs.
-            1 lit. c DSGVO.
-
-            <br /><br />
-
-            <p class="text-lg font-medium">Facebook</p>
-            Auf dieser Website sind Elemente des sozialen Netzwerks Facebook integriert. Anbieter
-            dieses Dienstes ist die Meta Platforms Ireland Limited, Merrion Road, Dublin 4, D04
-            X2K5, Irland. Die erfassten Daten werden nach Aussage von Facebook jedoch auch in die
-            USA und in andere Drittländer übertragen.
-
-            <br /><br />
-            Eine Übersicht über die Facebook Social-Media-Elemente finden Sie hier:
-            <a href="https://developers.facebook.com/docs/plugins/?locale=de_DE"
-              >Facebook-SocialMedia-Elements</a
-            >
-
-            <br /><br />
-            Wenn das Social-Media-Element aktiv ist, wird eine direkte Verbindung zwischen Ihrem
-            Endgerät und dem Facebook-Server hergestellt. Facebook erhält dadurch die Information,
-            dass Sie mit Ihrer IP-Adresse diese Website besucht haben. Wenn Sie den Facebook
-            „Like-Button“ anklicken, während Sie in Ihrem Facebook- Account eingeloggt sind, können
-            Sie die Inhalte dieser Website auf Ihrem Facebook-Profil verlinken. Dadurch kann
-            Facebook den Besuch dieser Website Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin,
-            dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie
-            deren Nutzung durch Facebook erhalten. Weitere Informationen hierzu finden Sie in der
-            Datenschutzerklärung von Facebook unter:
-            <a href="https://de-de.facebook.com/privacy/explanation."
-              >FaceBook-Privacy-Explanation</a
-            >
-
-            <br /><br />
-            Die Nutzung dieses Dienstes erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1
-            lit. a DSGVO und § 25 Abs. 1 TDDDG. Die Einwilligung ist jederzeit widerrufbar.
-
-            <br /><br />
-            Soweit mit Hilfe des hier beschriebenen Tools personenbezogene Daten auf unserer Website
-            erfasst und an Facebook weitergeleitet werden, sind wir und die Meta Platforms Ireland
-            Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland gemeinsam für diese
-            Datenverarbeitung verantwortlich (Art. 26 DSGVO). Die gemeinsame Verantwortlichkeit
-            beschränkt sich dabei ausschließlich auf die Erfassung der Daten und deren Weitergabe an
-            Facebook. Die nach der Weiterleitung erfolgende Verarbeitung durch Facebook ist nicht
-            Teil der gemeinsamen Verantwortung. Die uns gemeinsam obliegenden Verpflichtungen wurden
-            in einer Vereinbarung über gemeinsame Verarbeitung festgehalten. Den Wortlaut der
-            Vereinbarung finden Sie unter:
-            <a href="https://www.facebook.com/legal/controller_addendum"
-              >Facebook-Legal-Controller</a
-            >. Laut dieser Vereinbarung sind wir für die Erteilung der Datenschutzinformationen beim
-            Einsatz des Facebook-Tools und für die datenschutzrechtlich sichere Implementierung des
-            Tools auf unserer Website verantwortlich. Für die Datensicherheit der Facebook- Produkte
-            ist Facebook verantwortlich. Betroffenenrechte (z. B. Auskunftsersuchen) hinsichtlich
-            der bei Facebook verarbeiteten Daten können Sie direkt bei Facebook geltend machen. Wenn
-            Sie die Betroffenenrechte bei uns geltend machen, sind wir verpflichtet, diese an
-            Facebook weiterzuleiten.
-
-            <br /><br />
-            Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission
-            gestützt. Details finden Sie hier:
-            <a href="https://www.facebook.com/legal/EU_data_transfer_addendum"
-              >Facebook-Data-Transfer</a
-            >, <a href="https://de-de.facebook.com/help/566994660333381">Facebook-Help</a> und
-            <a href="https://www.facebook.com/policy.php">Facebook-Policy</a>.
+            Weitere Informationen zu Google Fonts finden Sie unter
+            <a href="https://developers.google.com/fonts/faq">Google-Fonts FAQ</a> und in der
+            Datenschutzerklärung von Google:
+            <a href="https://policies.google.com/privacy?hl=de.">Google-Policies Privacy</a>
 
             <br /><br />
             Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“
@@ -466,77 +366,11 @@ import { Phone, Mail } from 'lucide-vue-next'
             die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA
             gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich,
             diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom
-            Anbieter unter folgendem Link:
+            Anbieter unter folgendem Link: <br />
             <a
-              href="https://www.dataprivacyframework.gov/s/participant-search/participant-
-              detail?contact=true&id=a2zt0000000GnywAAC&status=Active"
-              >Dataprivacy-Framework</a
+              href="https://www.dataprivacyframework.gov/s/participant-search/participantdetail?contact=true&id=a2zt000000001L5AAI&status=Active"
+              >Dataprivacyframework</a
             >
-
-            <!-- BILDER -->
-            <br /><br />
-            Designed by pvproductions
-            <br />
-            Designed by freepik
-            <br />
-            Designed by Drazen Zigic
-
-            <br /><br />
-            <p class="text-lg font-medium">Instagram</p>
-            Auf dieser Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen
-            werden angeboten durch die Meta Platforms Ireland Limited, Merrion Road, Dublin 4, D04
-            X2K5, Irland.
-
-            <br /><br />
-            Wenn das Social-Media-Element aktiv ist, wird eine direkte Verbindung zwischen Ihrem
-            Endgerät und dem Instagram-Server hergestellt. Instagram erhält dadurch Informationen
-            über den Besuch dieser Website durch Sie.
-
-            <br /><br />
-            Wenn Sie in Ihrem Instagram-Account eingeloggt sind, können Sie durch Anklicken des
-            Instagram-Buttons die Inhalte dieser Website mit Ihrem Instagram-Profil verlinken.
-            Dadurch kann Instagram den Besuch dieser Website Ihrem Benutzerkonto zuordnen. Wir
-            weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der
-            übermittelten Daten sowie deren Nutzung durch Instagram erhalten.
-
-            <br /><br />
-            Die Nutzung dieses Dienstes erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1
-            lit. a DSGVO und § 25 Abs. 1 TDDDG. Die Einwilligung ist jederzeit widerrufbar.
-
-            <br /><br />
-            Soweit mit Hilfe des hier beschriebenen Tools personenbezogene Daten auf unserer Website
-            erfasst und an Facebook bzw. Instagram weitergeleitet werden, sind wir und die Meta
-            Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland
-            gemeinsam für diese Datenverarbeitung verantwortlich (Art. 26 DSGVO). Die gemeinsame
-            Verantwortlichkeit beschränkt sich dabei ausschließlich auf die Erfassung der Daten und
-            deren Weitergabe an Facebook bzw. Instagram. Die nach der Weiterleitung erfolgende
-            Verarbeitung durch Facebook bzw. Instagram ist nicht Teil der gemeinsamen Verantwortung.
-            Die uns gemeinsam obliegenden Verpflichtungen wurden in einer Vereinbarung über
-            gemeinsame Verarbeitung festgehalten. Den Wortlaut der Vereinbarung finden Sie unter:
-            <a href="https://www.facebook.com/legal/controller_addendum"
-              >Facebook-Legal-Controller</a
-            >. Laut dieser Vereinbarung sind wir für die Erteilung der Datenschutzinformationen beim
-            Einsatz des Facebook- bzw. Instagram-Tools und für die datenschutzrechtlich sichere
-            Implementierung des Tools auf unserer Website verantwortlich. Für die Datensicherheit
-            der Facebook bzw. Instagram-Produkte ist Facebook verantwortlich. Betroffenenrechte (z.
-            B. Auskunftsersuchen) hinsichtlich der bei Facebook bzw. Instagram verarbeiteten Daten
-            können Sie direkt bei Facebook geltend machen. Wenn Sie die Betroffenenrechte bei uns
-            geltend machen, sind wir verpflichtet, diese an Facebook weiterzuleiten.
-
-            <br /><br />
-            Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission
-            gestützt. Details finden Sie hier:
-
-            <br /><br />
-            Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram:
-
-            <br /><br />
-            Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“
-            (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der
-            die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA
-            gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich,
-            diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom
-            Anbieter unter folgendem Link:
 
             <br /><br />
             Quelle: https://www.e-recht24.de

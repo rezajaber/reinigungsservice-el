@@ -12,14 +12,14 @@ import { Phone, PhoneCall } from 'lucide-vue-next'
           <h3
             class="break-words text-center text-[26px] font-bold leading-7 tracking-wide md:text-start"
           >
-            Ihr individuelles Reinigungsangebot anfordern
+            Ihr maßgeschneidertes Reinigungsangebot
           </h3>
           <p class="text-center font-light leading-7 tracking-wide opacity-90 md:text-start">
-            Wir verstehen, dass jedes Gebäude und jede Reinigungsaufgabe ihre eigenen einzigartigen
-            Anforderungen hat. Deshalb bieten wir maßgeschneiderte Reinigungslösungen, die speziell
-            auf Ihre individuellen Bedürfnisse zugeschnitten sind. Fordern Sie jetzt Ihr
-            persönliches Angebot an und lassen Sie uns gemeinsam herausfinden, wie wir Ihr Umfeld
-            nicht nur sauberer, sondern auch gesünder und angenehmer gestalten können.
+            Jeder Raum hat seine eigenen Anforderungen, wenn es um Sauberkeit geht. Bei EL-Reinigung
+            verstehen wir das und entwickeln daher speziell auf Ihre Bedürfnisse zugeschnittene
+            Reinigungslösungen. Kontaktieren Sie uns für ein individuelles Angebot und erfahren Sie,
+            wie wir Ihre Räume nicht nur sauberer, sondern auch gesünder und einladender machen
+            können.
           </p>
         </div>
 
@@ -36,10 +36,10 @@ import { Phone, PhoneCall } from 'lucide-vue-next'
             <p
               class="mb-10 text-center font-light leading-7 tracking-wide text-primary lg:mb-0 lg:text-start"
             >
-              Sind Sie bereit für eine tadellose Geschäftsumgebung? Rufen Sie uns an oder senden Sie
-              uns eine E-Mail, um Ihre maßgeschneiderte Reinigungslösung zu planen. Unser
-              professionelles Team freut sich darauf, Ihre Räumlichkeiten in neuem Glanz erstrahlen
-              zu lassen und eine saubere, einladende Atmosphäre zu schaffen.
+              Sind Sie bereit, Ihre Räumlichkeiten zu transformieren? Rufen Sie uns an oder senden
+              Sie uns eine E-Mail, um Ihre individuelle Reinigungslösung zu besprechen. Unser
+              engagiertes Team ist bestrebt, Ihre Erwartungen zu übertreffen und eine Umgebung zu
+              schaffen, die Reinheit und Komfort ausstrahlt.
             </p>
           </div>
 

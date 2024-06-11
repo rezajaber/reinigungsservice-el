@@ -26,63 +26,63 @@ const services = [
     alt: 'Grundreinigung',
     title: 'Grundreinigung',
     description:
-      'Von der Umzugsplanung über den Möbel- und Kistentransport bis hin zu optionalen Services wie dem Auspacken der Umzugskartons, der Möbelmontage sowie Reinigungs-, Maler- und Renovierungsarbeiten. Wir bieten Ihnen ein umfangreiches, individuell angepasstes Angebot und unterstützen Sie mit unseren Services für Ihren Umzug. Wir verhelfen Ihnen zu einem erfolgreichen, angenehmen und besonders für Sie stressfreien Umzug.'
+      'Unsere Grundreinigung bietet eine umfassende und gründliche Reinigungslösung für Ihr Zuhause oder Büro, besonders nützlich bei Umzügen oder saisonalen Tiefenreinigungen. Dazu gehören auch Möbelmontage und Raumrenovierung, um Ihren Raum von Grund auf zu erneuern und eine frische, saubere Umgebung zu schaffen.'
   },
   {
     src: serviceTwo,
     alt: 'Desinfektion',
     title: 'Desinfektion',
     description:
-      'Unser Team steht Ihnen zur Verfügung, wenn Sie ein Unternehmen auflösen, eine Erbschaft erhalten oder Ihren Keller oder Ihre Garage aufräumen müssen. Wir übernehmen die Haushaltsauflösung, schaffen Platz, verwerten nützliche Gegenstände und entsorgen Abfälle jeglicher Art (privat/gewerblich) unter Berücksichtigung der Umweltstandards.'
+      'Wir bieten fachgerechte Desinfektionsdienste, die ideal für die Entrümpelung von Kellern und die Auflösung von Unternehmen sind. Unsere Methoden sind sowohl effizient als auch umweltfreundlich, um sicherzustellen, dass alle betroffenen Bereiche sicher und frei von schädlichen Keimen und Bakterien sind.'
   },
   {
     src: serviceThree,
     alt: 'Büroreinigung',
     title: 'Büroreinigung',
     description:
-      'Wir bieten Abriss- oder Abbrucharbeiten für Teile eines Gebäudes/Anbaus im Innen- oder Außenbereich, komplette Innenraum-Neugestaltung, Erstellung einer Öffnung in der Wand, Einsetzen/Entfernen eines Kamins oder Terrassenabbruch in Ihrem Garten. Mit unserer Expertise in diesem Bereich können wir jede Arbeit flexibel, schnell und problemlos für Sie und nach Ihren speziellen Wünschen erledigen.'
+      'Unsere professionelle Büroreinigung passt sich Ihren individuellen Bedürfnissen an, von einfachen Auffrischungen bis hin zu komplexen Renovierungen. Wir sorgen dafür, dass Ihr Arbeitsplatz stets sauber, organisiert und produktivitätsfördernd ist, damit Sie und Ihr Team in einer angenehmen Umgebung arbeiten können.'
   },
   {
     src: serviceFour,
-    alt: 'Hausmeisterservice',
-    title: 'Grundreinigung',
-    description:
-      'Sie suchen einen flexiblen und engagierten Hausmeister Ihres Vertrauens für Ihre Immobilie oder Ihr Unternehmen? Oder Sie brauchen nur für einen kleinen Auftrag oder für eine bestimmte kurze Zeit die Dienste eines Hausmeisters? Bei WWEHGER stehen wir mit unseren spezialisierten Hausmeisterdiensten zur Verfügung und freuen uns auf Ihre Anfrage!'
-  },
-  {
-    src: serviceFive,
     alt: 'Lagerreinigung',
     title: 'Lagerreinigung',
     description:
-      'Sie haben ein kleines Projekt im Garten vor und benötigen jemanden, der Ihre Vision versteht und umsetzen kann, oder wollen zuverlässige Helfer für Rasenmähen, Hecke schneiden, Unkraut zupfen und Co.? Sie besitzen oder managen eine Immobilie oder ein Unternehmen und auch dort soll es in Ihrem Vorgarten gepflegt und ordentlich aussehen? Unser Team ist für Sie und Ihre Wünsche da! Vereinbaren Sie ein Beratungsgespräch oder erfragen Sie ein unverbindliches Angebot.'
+      'Unsere spezialisierten Reinigungsdienste für Lager und Industrieanlagen gewährleisten eine saubere und effiziente Arbeitsumgebung. Wir entfernen hartnäckigen Schmutz, Staub und Ablagerungen, um die Betriebssicherheit zu erhöhen und die Lebensdauer Ihrer Anlagen zu verlängern.'
   },
   {
-    src: serviceSix,
+    src: serviceFive,
     alt: 'Treppenhausreinigung',
     title: 'Treppenhausreinigung',
     description:
-      'Der zuverlässige Winterdienst für Sie als Privatperson im Vorgarten, für Ihr Büro/Gebäude, ganze Straßen oder sogar mehrere Bezirke und Routen - und das, wenn gewünscht, jederzeit im 24/7-Notfall-Winterdienst!'
+      'Mit unserer regelmäßigen und gründlichen Treppenhausreinigung sorgen wir für Sicherheit und Sauberkeit in Wohngebäuden und Bürokomplexen. Wir entfernen Schmutz und Abfälle, polieren Geländer und sorgen für ein einladendes Erscheinungsbild, das Bewohner und Besucher gleichermaßen schätzen werden.'
+  },
+  {
+    src: serviceSix,
+    alt: 'Sozialeinrichtungen',
+    title: 'Sozialeinrichtungen',
+    description:
+      'Unsere Reinigung für Sozialeinrichtungen ist gründlich und empathisch, um ein sicheres und hygienisches Umfeld für Betreuer und Betreute zu schaffen. Wir berücksichtigen die speziellen Anforderungen und sensiblen Bedürfnisse dieser Umgebungen und bieten flexible Zeitpläne an, um den täglichen Betrieb nicht zu stören. So gewährleisten wir stets eine einwandfreie Sauberkeit und Sicherheit.'
   },
   {
     src: serviceSeven,
     alt: 'Praxisreinigung',
     title: 'Praxisreinigung',
     description:
-      'Gebäudereinigung für Einzel- oder Großraumbüros, Bürokomplexe, Industriegebäude oder einfache Mehrfamilienhäuser - wir von WWEHGER stehen mit unserem professionellen Team für hygienische Sauberkeit bereit und krempeln die Ärmel hoch.'
+      'Unsere Praxisreinigung richtet sich nach spezifischen Reinigungsprotokollen für medizinische und zahnmedizinische Praxen, die höchste Hygienestandards erfordern. Wir entfernen gründlich alle Verunreinigungen, um eine sterile Umgebung zu gewährleisten, die sowohl für Patienten als auch für das medizinische Personal sicher ist.'
   },
   {
     src: serviceEight,
     alt: 'Unterhaltsreinigung',
     title: 'Unterhaltsreinigung',
     description:
-      'Gebäudereinigung für Einzel- oder Großraumbüros, Bürokomplexe, Industriegebäude oder einfache Mehrfamilienhäuser - wir von WWEHGER stehen mit unserem professionellen Team für hygienische Sauberkeit bereit und krempeln die Ärmel hoch.'
+      'Unsere regelmäßige Unterhaltsreinigung für Büros und Geschäftsräume schafft kontinuierlich saubere und professionelle Umgebungen. Wir bieten flexible Zeitpläne und maßgeschneiderte Reinigungspläne an, um sicherzustellen, dass Ihre Räumlichkeiten stets repräsentativ und betriebsbereit sind.'
   },
   {
     src: serviceNine,
     alt: 'Glas und Fensterreinigung',
-    title: 'Glas und Fensterreinigung',
+    title: 'Glas-/Fensterreinigung',
     description:
-      'Gebäudereinigung für Einzel- oder Großraumbüros, Bürokomplexe, Industriegebäude oder einfache Mehrfamilienhäuser - wir von WWEHGER stehen mit unserem professionellen Team für hygienische Sauberkeit bereit und krempeln die Ärmel hoch.'
+      'Unsere fachmännische Reinigung von Glasflächen und Fenstern sorgt für eine klare Sicht und blendende Sauberkeit in allen Gebäuden. Ob hochgelegene Fenster oder empfindliche Glasstrukturen – wir verwenden spezielle Techniken und Ausrüstungen, um strahlende Ergebnisse ohne Streifen oder Rückstände zu erzielen.'
   }
 ]
 </script>
@@ -105,9 +105,10 @@ const services = [
         <h1
           class="text-center text-[28px] font-bold leading-9 md:text-4xl md:leading-[46px] lg:text-start lg:text-[44px]"
         >
-          Trusted Cleaning <span class="font-title text-primary">Services</span>
+          Unsere
+          <span class="font-title text-primary">Reinigungsdienste</span>
           <br class="hidden md:block" />
-          On Your Door
+          direkt vor Ihrer Tür
         </h1>
 
         <img
@@ -145,12 +146,12 @@ const services = [
 
                       <h3 class="mt-8 text-2xl font-bold">{{ service.title }}</h3>
                       <p
-                        class="no-scrollbar mt-3.5 h-48 overflow-y-scroll text-sm font-light leading-7 text-description"
+                        class="no-scrollbar mt-3.5 h-40 overflow-y-scroll text-sm font-light leading-7 text-description"
                       >
                         {{ service.description }}
                       </p>
                       <Button class="my-6 h-11 px-8"
-                        >See More<ArrowUpRight class="ml-1.5 h-5 w-5"
+                        >Mehr Info<ArrowUpRight class="ml-1.5 h-5 w-5"
                       /></Button>
                     </div>
                   </div>

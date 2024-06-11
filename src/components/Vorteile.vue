@@ -1,15 +1,20 @@
 <script setup lang="ts">
-import { SearchCheck, ClipboardList, HeartHandshake } from 'lucide-vue-next'
-import Button from './ui/button/Button.vue'
-import Separator from '@/components/ui/separator/Separator.vue'
+import {
+  SearchCheck,
+  ClipboardList,
+  HeartHandshake,
+  BriefcaseMedical,
+  Building2,
+  GraduationCap
+} from 'lucide-vue-next'
 
 const icons = [
   SearchCheck,
   ClipboardList,
   HeartHandshake,
-  SearchCheck,
-  ClipboardList,
-  HeartHandshake
+  BriefcaseMedical,
+  Building2,
+  GraduationCap
 ]
 const vorteile = [
   {
@@ -35,24 +40,24 @@ const vorteile = [
   },
   {
     id: 4,
-    icon: 'SearchCheck',
-    title: 'Unsere Präzision',
+    icon: 'BriefcaseMedical',
+    title: 'Praxen',
     description:
-      'Unsere Arbeit zeichnet sich durch höchste Präzision aus, um sicherzustellen, dass jede Aufgabe mit äußerster Genauigkeit und Sorgfalt ausgeführt wird.'
+      'Wir bieten spezialisierte Reinigungsdienste für Praxen an, um eine hygienische und einladende Umgebung für Patienten und Personal zu gewährleisten.'
   },
   {
     id: 5,
-    icon: 'ClipboardList',
-    title: 'Unsere Flexibilität',
+    icon: 'Building2',
+    title: 'Firmen',
     description:
-      'Dank unserer Vielfalt an Services und unserer Flexibilität können wir uns leicht an die spezifischen Anforderungen unserer Kunden anpassen und maßgeschneiderte Lösungen liefern.'
+      'Unsere professionellen Reinigungskräfte sorgen für saubere und produktive Arbeitsbereiche in Unternehmen jeder Größe.'
   },
   {
     id: 6,
-    icon: 'HeartHandshake',
-    title: 'Unser Kundenservice',
+    icon: 'GraduationCap',
+    title: 'Sozialeinrichtungen',
     description:
-      'Wir legen großen Wert auf exzellenten Kundenservice, um sicherzustellen, dass unsere Kunden jederzeit zufrieden sind. Unser engagiertes Team steht Ihnen zur Seite, um Ihre Anliegen zu hören und Ihnen zu helfen.'
+      'Wir bieten umfassende Reinigungsdienste für Sozialeinrichtungen, um sicherzustellen, dass die Räumlichkeiten sicher und angenehm für alle Bewohner und Besucher sind.'
   }
 ]
 </script>
@@ -74,9 +79,10 @@ const vorteile = [
         <h1
           class="text-center text-[28px] font-bold leading-9 md:text-4xl md:leading-[46px] lg:text-start lg:text-[44px]"
         >
-          Trusted Cleaning <span class="font-title text-primary">Services</span>
+          Unsere
+          <span class="font-title text-primary">Reinigungsdienste</span>
           <br class="hidden md:block" />
-          On Your Door
+          direkt vor Ihrer Tür
         </h1>
       </div>
 
@@ -88,14 +94,14 @@ const vorteile = [
         >
           <component
             :is="icons[index]"
-            class="stroke-icon icon group-hover:bg-icon mb-4 h-20 w-20 items-end rounded-full bg-[#F4F7FF] stroke-1 p-5 duration-300 ease-in-out group-hover:stroke-white md:h-[90px] md:w-[90px] lg:h-24 lg:w-24 lg:p-6"
+            class="icon mb-4 h-20 w-20 items-end rounded-full bg-[#F4F7FF] stroke-icon stroke-1 p-5 duration-300 ease-in-out group-hover:bg-icon group-hover:stroke-white md:h-[90px] md:w-[90px] lg:h-24 lg:w-24 lg:p-6"
           />
           <h3
-            class="text-icon mb-[10px] mt-2 text-start text-[26px] font-bold leading-[31px] tracking-wide"
+            class="mb-[10px] mt-2 break-words text-start text-[26px] font-bold leading-[31px] tracking-wide text-icon"
           >
             {{ vorteil.title }}
           </h3>
-          <p class="text-description text-start text-sm leading-7 tracking-wide lg:mt-3">
+          <p class="text-start text-sm leading-7 tracking-wide text-description lg:mt-3">
             {{ vorteil.description }}
           </p>
         </div>

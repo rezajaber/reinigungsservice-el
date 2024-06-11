@@ -47,13 +47,14 @@ const stadtteile = [
           <h2
             class="mb-6 text-[28px] font-bold leading-[36px] sm:text-4xl sm:leading-[46px] lg:text-[44px]"
           >
-            Unsere <span class="font-title text-primary">Einsatzgebiete</span> in Hamburg
+            <span class="font-title text-primary">Einsatzgebiete</span> - Wo Sie uns finden können
           </h2>
 
           <p class="mb-8 font-light leading-7 text-description xl:text-justify">
-            Wir sind stolz darauf, in ganz Hamburg für Sauberkeit und Ordnung zu sorgen. Von Altona
-            bis Zollenspieker – unser Team ist in allen Stadtteilen der Hansestadt für Sie im
-            Einsatz:
+            Wir decken ganz Hamburg ab – Ihr verlässlicher Partner für Sauberkeit in jedem Winkel
+            der Stadt. Ob im lebendigen Altona, dem charmanten Blankenese oder dem geschäftigen
+            Hauptbahnhof, unsere professionellen Teams sind überall im Einsatz, um Ihnen
+            erstklassige Reinigungsdienste zu bieten.
           </p>
 
           <!-- UP SECTION -->
